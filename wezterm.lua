@@ -24,7 +24,7 @@ config.line_height = 1.2
 
 -- Keybindings
 config.keys = {
-  { key = 'q', mods = 'CTRL', action = wezterm.action.ShowTabNavigator },
+  { key = 'w', mods = 'CTRL', action = wezterm.action.ShowTabNavigator },
 
   { mods = 'CTRL', key = 'c', action = wezterm.action.CopyTo 'Clipboard' },
   { mods = 'CTRL', key = 'v', action = wezterm.action.PasteFrom 'Clipboard' },
@@ -55,7 +55,7 @@ config.keys = {
   { mods = 'SUPER', key = '7', action = wezterm.action.ActivateTab(6) },
   { mods = 'SUPER', key = '8', action = wezterm.action.ActivateTab(7) },
   { mods = 'SUPER', key = '9', action = wezterm.action.ActivateTab(-1) },
-  { mods = 'CTRL', key = 'w', action = wezterm.action.CloseCurrentTab { confirm = true } },
+  { mods = 'CTRL', key = 'q', action = wezterm.action.CloseCurrentTab { confirm = true } },
   { mods = 'CTRL', key = '1', action = wezterm.action.ActivateTab(0) },
   { mods = 'CTRL', key = '2', action = wezterm.action.ActivateTab(1) },
   { mods = 'CTRL', key = '3', action = wezterm.action.ActivateTab(2) },
