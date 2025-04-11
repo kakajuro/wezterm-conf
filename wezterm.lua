@@ -10,9 +10,11 @@ config.color_scheme = 'Catppuccin Mocha'
 config.font = wezterm.font('JetBrains Mono', { weight = 'Bold' })
 
 -- Cursor
-config.cursor_blink_rate = 800
+config.cursor_blink_rate = 1000
+config.cursor_blink_ease_in = 'Constant'
+config.cursor_blink_ease_out = 'Constant'
 config.cursor_thickness = "2px"
-config.default_cursor_style = "SteadyBar"
+config.default_cursor_style = "BlinkingBar"
 
 -- Window
 config.window_decorations = "RESIZE"
